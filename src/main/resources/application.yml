@@ -2,19 +2,6 @@
 server:
   port: 8081
   
-spring:
-  application:
-    name: 'provider'
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: password
-    username: root
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/provider
-
 eureka:
   client:
     register-with-eureka: true
